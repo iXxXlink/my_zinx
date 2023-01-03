@@ -13,8 +13,8 @@ import (
 	"github.com/aceld/zinx/znet"
 )
 
-
 //创建连接的时候执行
+//test
 func DoConnectionBegin(conn ziface.IConnection) {
 	zlog.Debug("DoConnecionBegin is Called ... ")
 
