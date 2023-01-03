@@ -13,8 +13,8 @@ import (
 	"github.com/aceld/zinx/znet"
 )
 
-//创建连接的时候执行
-//test
+// 创建连接的时候执行
+// test
 func DoConnectionBegin(conn ziface.IConnection) {
 	zlog.Debug("DoConnecionBegin is Called ... ")
 
@@ -29,7 +29,7 @@ func DoConnectionBegin(conn ziface.IConnection) {
 	}
 }
 
-//连接断开的时候执行
+// 连接断开的时候执行
 func DoConnectionLost(conn ziface.IConnection) {
 	//在连接销毁之前，查询conn的Name，Home属性
 	if name, err := conn.GetProperty("Name"); err == nil {
